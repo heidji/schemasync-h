@@ -14,7 +14,7 @@ setup(
     install_requires=['SchemaObject >= 0.5.7'],
     entry_points={
         'console_scripts': [
-            'schemasync-h = schemasync.schemasync:main',
+            'schemasync-h = schemasync-h.schemasync:main',
         ]
     },
 
